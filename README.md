@@ -89,4 +89,11 @@
 ####效果图
 ![](http://upload-images.jianshu.io/upload_images/1902273-efdd497615b79d7c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+##No5、☆ UITextView+Category
+1、UITextView 添加占位符
+2、算textview输入情况下的字符数，解决实现限制字符数时，计算不准的问题
+
+```
+  [textView add_PlaceHolder:@"请输入内心独白（20字以内）~"];
+```
 
