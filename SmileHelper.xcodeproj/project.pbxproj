@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FEB9301E656CC50081A6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB92F1E656CC50081A6FF /* main.m */; };
+		C0FEB9331E656CC50081A6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9321E656CC50081A6FF /* AppDelegate.m */; };
+		C0FEB9361E656CC50081A6FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9351E656CC50081A6FF /* ViewController.m */; };
+		C0FEB9391E656CC50081A6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB9371E656CC50081A6FF /* Main.storyboard */; };
+		C0FEB93B1E656CC50081A6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB93A1E656CC50081A6FF /* Assets.xcassets */; };
+		C0FEB93E1E656CC50081A6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB93C1E656CC50081A6FF /* LaunchScreen.storyboard */; };
+		C0FEB9491E656CC50081A6FF /* SmileHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9481E656CC50081A6FF /* SmileHelperTests.m */; };
+		C0FEB9541E656CC50081A6FF /* SmileHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9531E656CC50081A6FF /* SmileHelperUITests.m */; };
+		C0FEB9691E656D940081A6FF /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9681E656D940081A6FF /* UIAlertView+Block.m */; };
+		C0FEB96E1E6577F30081A6FF /* SmileAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB96D1E6577F30081A6FF /* SmileAlert.m */; };
+		C0FEB9711E65888F0081A6FF /* SmileAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9701E65888F0081A6FF /* SmileAlertContentView.m */; };
+		C0FEB9731E65889A0081A6FF /* SmileAlertContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB9721E65889A0081A6FF /* SmileAlertContentView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0FEB9451E656CC50081A6FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FEB9231E656CC50081A6FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0FEB92A1E656CC50081A6FF;
+			remoteInfo = SmileHelper;
+		};
+		C0FEB9501E656CC50081A6FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FEB9231E656CC50081A6FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0FEB92A1E656CC50081A6FF;
+			remoteInfo = SmileHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0FEB92B1E656CC50081A6FF /* SmileHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FEB92F1E656CC50081A6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0FEB9311E656CC50081A6FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0FEB9321E656CC50081A6FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0FEB9341E656CC50081A6FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0FEB9351E656CC50081A6FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0FEB9381E656CC50081A6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FEB93A1E656CC50081A6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FEB93D1E656CC50081A6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FEB93F1E656CC50081A6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FEB9441E656CC50081A6FF /* SmileHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FEB9481E656CC50081A6FF /* SmileHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileHelperTests.m; sourceTree = "<group>"; };
+		C0FEB94A1E656CC50081A6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FEB94F1E656CC50081A6FF /* SmileHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FEB9531E656CC50081A6FF /* SmileHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileHelperUITests.m; sourceTree = "<group>"; };
+		C0FEB9551E656CC50081A6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FEB9631E656D3D0081A6FF /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		C0FEB9671E656D940081A6FF /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		C0FEB9681E656D940081A6FF /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		C0FEB96C1E6577F30081A6FF /* SmileAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileAlert.h; sourceTree = "<group>"; };
+		C0FEB96D1E6577F30081A6FF /* SmileAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileAlert.m; sourceTree = "<group>"; };
+		C0FEB96F1E65888F0081A6FF /* SmileAlertContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileAlertContentView.h; sourceTree = "<group>"; };
+		C0FEB9701E65888F0081A6FF /* SmileAlertContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileAlertContentView.m; sourceTree = "<group>"; };
+		C0FEB9721E65889A0081A6FF /* SmileAlertContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmileAlertContentView.xib; path = ../../../SmileAlertContentView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FEB9281E656CC50081A6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEB9411E656CC50081A6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEB94C1E656CC50081A6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FEB9221E656CC50081A6FF = {
+			isa = PBXGroup;
+			children = (
+				C0FEB92D1E656CC50081A6FF /* SmileHelper */,
+				C0FEB9471E656CC50081A6FF /* SmileHelperTests */,
+				C0FEB9521E656CC50081A6FF /* SmileHelperUITests */,
+				C0FEB92C1E656CC50081A6FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FEB92C1E656CC50081A6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB92B1E656CC50081A6FF /* SmileHelper.app */,
+				C0FEB9441E656CC50081A6FF /* SmileHelperTests.xctest */,
+				C0FEB94F1E656CC50081A6FF /* SmileHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FEB92D1E656CC50081A6FF /* SmileHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB9631E656D3D0081A6FF /* Macros.h */,
+				C0FEB9611E656CFB0081A6FF /* Category(分类) */,
+				C0FEB9311E656CC50081A6FF /* AppDelegate.h */,
+				C0FEB9321E656CC50081A6FF /* AppDelegate.m */,
+				C0FEB9341E656CC50081A6FF /* ViewController.h */,
+				C0FEB9351E656CC50081A6FF /* ViewController.m */,
+				C0FEB9371E656CC50081A6FF /* Main.storyboard */,
+				C0FEB93A1E656CC50081A6FF /* Assets.xcassets */,
+				C0FEB93C1E656CC50081A6FF /* LaunchScreen.storyboard */,
+				C0FEB93F1E656CC50081A6FF /* Info.plist */,
+				C0FEB92E1E656CC50081A6FF /* Supporting Files */,
+			);
+			path = SmileHelper;
+			sourceTree = "<group>";
+		};
+		C0FEB92E1E656CC50081A6FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB92F1E656CC50081A6FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0FEB9471E656CC50081A6FF /* SmileHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB9481E656CC50081A6FF /* SmileHelperTests.m */,
+				C0FEB94A1E656CC50081A6FF /* Info.plist */,
+			);
+			path = SmileHelperTests;
+			sourceTree = "<group>";
+		};
+		C0FEB9521E656CC50081A6FF /* SmileHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB9531E656CC50081A6FF /* SmileHelperUITests.m */,
+				C0FEB9551E656CC50081A6FF /* Info.plist */,
+			);
+			path = SmileHelperUITests;
+			sourceTree = "<group>";
+		};
+		C0FEB9611E656CFB0081A6FF /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB9621E656D180081A6FF /* UIAlertView */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		C0FEB9621E656D180081A6FF /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB9671E656D940081A6FF /* UIAlertView+Block.h */,
+				C0FEB9681E656D940081A6FF /* UIAlertView+Block.m */,
+				C0FEB96B1E6577CD0081A6FF /* SmileAlert */,
+			);
+			path = UIAlertView;
+			sourceTree = "<group>";
+		};
+		C0FEB96B1E6577CD0081A6FF /* SmileAlert */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB96C1E6577F30081A6FF /* SmileAlert.h */,
+				C0FEB96D1E6577F30081A6FF /* SmileAlert.m */,
+				C0FEB96F1E65888F0081A6FF /* SmileAlertContentView.h */,
+				C0FEB9701E65888F0081A6FF /* SmileAlertContentView.m */,
+				C0FEB9721E65889A0081A6FF /* SmileAlertContentView.xib */,
+			);
+			name = SmileAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FEB92A1E656CC50081A6FF /* SmileHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FEB9581E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelper" */;
+			buildPhases = (
+				C0FEB9271E656CC50081A6FF /* Sources */,
+				C0FEB9281E656CC50081A6FF /* Frameworks */,
+				C0FEB9291E656CC50081A6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileHelper;
+			productName = SmileHelper;
+			productReference = C0FEB92B1E656CC50081A6FF /* SmileHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0FEB9431E656CC50081A6FF /* SmileHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FEB95B1E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelperTests" */;
+			buildPhases = (
+				C0FEB9401E656CC50081A6FF /* Sources */,
+				C0FEB9411E656CC50081A6FF /* Frameworks */,
+				C0FEB9421E656CC50081A6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FEB9461E656CC50081A6FF /* PBXTargetDependency */,
+			);
+			name = SmileHelperTests;
+			productName = SmileHelperTests;
+			productReference = C0FEB9441E656CC50081A6FF /* SmileHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0FEB94E1E656CC50081A6FF /* SmileHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FEB95E1E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelperUITests" */;
+			buildPhases = (
+				C0FEB94B1E656CC50081A6FF /* Sources */,
+				C0FEB94C1E656CC50081A6FF /* Frameworks */,
+				C0FEB94D1E656CC50081A6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FEB9511E656CC50081A6FF /* PBXTargetDependency */,
+			);
+			name = SmileHelperUITests;
+			productName = SmileHelperUITests;
+			productReference = C0FEB94F1E656CC50081A6FF /* SmileHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FEB9231E656CC50081A6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = www.imee.vc;
+				TargetAttributes = {
+					C0FEB92A1E656CC50081A6FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C0FEB9431E656CC50081A6FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0FEB92A1E656CC50081A6FF;
+					};
+					C0FEB94E1E656CC50081A6FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0FEB92A1E656CC50081A6FF;
+					};
+				};
+			};
+			buildConfigurationList = C0FEB9261E656CC50081A6FF /* Build configuration list for PBXProject "SmileHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FEB9221E656CC50081A6FF;
+			productRefGroup = C0FEB92C1E656CC50081A6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FEB92A1E656CC50081A6FF /* SmileHelper */,
+				C0FEB9431E656CC50081A6FF /* SmileHelperTests */,
+				C0FEB94E1E656CC50081A6FF /* SmileHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FEB9291E656CC50081A6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEB93E1E656CC50081A6FF /* LaunchScreen.storyboard in Resources */,
+				C0FEB93B1E656CC50081A6FF /* Assets.xcassets in Resources */,
+				C0FEB9731E65889A0081A6FF /* SmileAlertContentView.xib in Resources */,
+				C0FEB9391E656CC50081A6FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEB9421E656CC50081A6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEB94D1E656CC50081A6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FEB9271E656CC50081A6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEB9361E656CC50081A6FF /* ViewController.m in Sources */,
+				C0FEB9691E656D940081A6FF /* UIAlertView+Block.m in Sources */,
+				C0FEB96E1E6577F30081A6FF /* SmileAlert.m in Sources */,
+				C0FEB9331E656CC50081A6FF /* AppDelegate.m in Sources */,
+				C0FEB9711E65888F0081A6FF /* SmileAlertContentView.m in Sources */,
+				C0FEB9301E656CC50081A6FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEB9401E656CC50081A6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEB9491E656CC50081A6FF /* SmileHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEB94B1E656CC50081A6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEB9541E656CC50081A6FF /* SmileHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0FEB9461E656CC50081A6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0FEB92A1E656CC50081A6FF /* SmileHelper */;
+			targetProxy = C0FEB9451E656CC50081A6FF /* PBXContainerItemProxy */;
+		};
+		C0FEB9511E656CC50081A6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0FEB92A1E656CC50081A6FF /* SmileHelper */;
+			targetProxy = C0FEB9501E656CC50081A6FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0FEB9371E656CC50081A6FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FEB9381E656CC50081A6FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0FEB93C1E656CC50081A6FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FEB93D1E656CC50081A6FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FEB9561E656CC50081A6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0FEB9571E656CC50081A6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FEB9591E656CC50081A6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileFan.SmileHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0FEB95A1E656CC50081A6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileFan.SmileHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0FEB95C1E656CC50081A6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmileHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileFan.SmileHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileHelper.app/SmileHelper";
+			};
+			name = Debug;
+		};
+		C0FEB95D1E656CC50081A6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmileHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileFan.SmileHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileHelper.app/SmileHelper";
+			};
+			name = Release;
+		};
+		C0FEB95F1E656CC50081A6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmileHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileFan.SmileHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmileHelper;
+			};
+			name = Debug;
+		};
+		C0FEB9601E656CC50081A6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmileHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmileFan.SmileHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmileHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FEB9261E656CC50081A6FF /* Build configuration list for PBXProject "SmileHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FEB9561E656CC50081A6FF /* Debug */,
+				C0FEB9571E656CC50081A6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FEB9581E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FEB9591E656CC50081A6FF /* Debug */,
+				C0FEB95A1E656CC50081A6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0FEB95B1E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FEB95C1E656CC50081A6FF /* Debug */,
+				C0FEB95D1E656CC50081A6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0FEB95E1E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FEB95F1E656CC50081A6FF /* Debug */,
+				C0FEB9601E656CC50081A6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FEB9231E656CC50081A6FF /* Project object */;
+}
