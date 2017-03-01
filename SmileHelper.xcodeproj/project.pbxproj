@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0DFDEF51E666A210078E2B0 /* SmileAlertContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DFDEF41E666A210078E2B0 /* SmileAlertContentView.xib */; };
+		C0DFDEFA1E666B600078E2B0 /* SmileButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDEF81E666B600078E2B0 /* SmileButtonVC.m */; };
+		C0DFDEFB1E666B600078E2B0 /* SmileButtonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DFDEF91E666B600078E2B0 /* SmileButtonVC.xib */; };
+		C0DFDF011E666E910078E2B0 /* SmileMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDEFF1E666E910078E2B0 /* SmileMainViewController.m */; };
+		C0DFDF021E666E910078E2B0 /* SmileMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DFDF001E666E910078E2B0 /* SmileMainViewController.xib */; };
+		C0DFDF071E6670E90078E2B0 /* UINavigationController+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF061E6670E90078E2B0 /* UINavigationController+Animation.m */; };
+		C0DFDF0A1E66735D0078E2B0 /* UINavigationController+NavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF091E66735D0078E2B0 /* UINavigationController+NavManager.m */; };
+		C0DFDF0E1E667A490078E2B0 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF0D1E667A490078E2B0 /* UIButton+Category.m */; };
+		C0DFDF121E667F280078E2B0 /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF111E667F280078E2B0 /* MyControl.m */; };
 		C0FEB9301E656CC50081A6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB92F1E656CC50081A6FF /* main.m */; };
 		C0FEB9331E656CC50081A6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9321E656CC50081A6FF /* AppDelegate.m */; };
-		C0FEB9361E656CC50081A6FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9351E656CC50081A6FF /* ViewController.m */; };
 		C0FEB9391E656CC50081A6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB9371E656CC50081A6FF /* Main.storyboard */; };
 		C0FEB93B1E656CC50081A6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB93A1E656CC50081A6FF /* Assets.xcassets */; };
 		C0FEB93E1E656CC50081A6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB93C1E656CC50081A6FF /* LaunchScreen.storyboard */; };
@@ -18,7 +26,6 @@
 		C0FEB9691E656D940081A6FF /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9681E656D940081A6FF /* UIAlertView+Block.m */; };
 		C0FEB96E1E6577F30081A6FF /* SmileAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB96D1E6577F30081A6FF /* SmileAlert.m */; };
 		C0FEB9711E65888F0081A6FF /* SmileAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9701E65888F0081A6FF /* SmileAlertContentView.m */; };
-		C0FEB9731E65889A0081A6FF /* SmileAlertContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB9721E65889A0081A6FF /* SmileAlertContentView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0DFDEF41E666A210078E2B0 /* SmileAlertContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmileAlertContentView.xib; sourceTree = "<group>"; };
+		C0DFDEF71E666B600078E2B0 /* SmileButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileButtonVC.h; sourceTree = "<group>"; };
+		C0DFDEF81E666B600078E2B0 /* SmileButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileButtonVC.m; sourceTree = "<group>"; };
+		C0DFDEF91E666B600078E2B0 /* SmileButtonVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmileButtonVC.xib; sourceTree = "<group>"; };
+		C0DFDEFE1E666E910078E2B0 /* SmileMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileMainViewController.h; sourceTree = "<group>"; };
+		C0DFDEFF1E666E910078E2B0 /* SmileMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileMainViewController.m; sourceTree = "<group>"; };
+		C0DFDF001E666E910078E2B0 /* SmileMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmileMainViewController.xib; sourceTree = "<group>"; };
+		C0DFDF051E6670E90078E2B0 /* UINavigationController+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Animation.h"; sourceTree = "<group>"; };
+		C0DFDF061E6670E90078E2B0 /* UINavigationController+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Animation.m"; sourceTree = "<group>"; };
+		C0DFDF081E66735D0078E2B0 /* UINavigationController+NavManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NavManager.h"; sourceTree = "<group>"; };
+		C0DFDF091E66735D0078E2B0 /* UINavigationController+NavManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NavManager.m"; sourceTree = "<group>"; };
+		C0DFDF0C1E667A490078E2B0 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		C0DFDF0D1E667A490078E2B0 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		C0DFDF101E667F280078E2B0 /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
+		C0DFDF111E667F280078E2B0 /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
 		C0FEB92B1E656CC50081A6FF /* SmileHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FEB92F1E656CC50081A6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0FEB9311E656CC50081A6FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0FEB9321E656CC50081A6FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0FEB9341E656CC50081A6FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0FEB9351E656CC50081A6FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C0FEB9381E656CC50081A6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0FEB93A1E656CC50081A6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0FEB93D1E656CC50081A6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +82,6 @@
 		C0FEB96D1E6577F30081A6FF /* SmileAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileAlert.m; sourceTree = "<group>"; };
 		C0FEB96F1E65888F0081A6FF /* SmileAlertContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileAlertContentView.h; sourceTree = "<group>"; };
 		C0FEB9701E65888F0081A6FF /* SmileAlertContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileAlertContentView.m; sourceTree = "<group>"; };
-		C0FEB9721E65889A0081A6FF /* SmileAlertContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmileAlertContentView.xib; path = ../../../SmileAlertContentView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +109,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0DFDEF61E666AFB0078E2B0 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C0DFDF051E6670E90078E2B0 /* UINavigationController+Animation.h */,
+				C0DFDF061E6670E90078E2B0 /* UINavigationController+Animation.m */,
+				C0DFDF081E66735D0078E2B0 /* UINavigationController+NavManager.h */,
+				C0DFDF091E66735D0078E2B0 /* UINavigationController+NavManager.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		C0DFDF0B1E667A100078E2B0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C0DFDF0C1E667A490078E2B0 /* UIButton+Category.h */,
+				C0DFDF0D1E667A490078E2B0 /* UIButton+Category.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C0DFDF0F1E667F180078E2B0 /* MyControl */ = {
+			isa = PBXGroup;
+			children = (
+				C0DFDF101E667F280078E2B0 /* MyControl.h */,
+				C0DFDF111E667F280078E2B0 /* MyControl.m */,
+			);
+			path = MyControl;
+			sourceTree = "<group>";
+		};
 		C0FEB9221E656CC50081A6FF = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +165,12 @@
 				C0FEB9611E656CFB0081A6FF /* Category(分类) */,
 				C0FEB9311E656CC50081A6FF /* AppDelegate.h */,
 				C0FEB9321E656CC50081A6FF /* AppDelegate.m */,
-				C0FEB9341E656CC50081A6FF /* ViewController.h */,
-				C0FEB9351E656CC50081A6FF /* ViewController.m */,
+				C0DFDEFE1E666E910078E2B0 /* SmileMainViewController.h */,
+				C0DFDEFF1E666E910078E2B0 /* SmileMainViewController.m */,
+				C0DFDF001E666E910078E2B0 /* SmileMainViewController.xib */,
+				C0DFDEF71E666B600078E2B0 /* SmileButtonVC.h */,
+				C0DFDEF81E666B600078E2B0 /* SmileButtonVC.m */,
+				C0DFDEF91E666B600078E2B0 /* SmileButtonVC.xib */,
 				C0FEB9371E656CC50081A6FF /* Main.storyboard */,
 				C0FEB93A1E656CC50081A6FF /* Assets.xcassets */,
 				C0FEB93C1E656CC50081A6FF /* LaunchScreen.storyboard */,
@@ -157,6 +209,9 @@
 		C0FEB9611E656CFB0081A6FF /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				C0DFDF0F1E667F180078E2B0 /* MyControl */,
+				C0DFDF0B1E667A100078E2B0 /* UIButton */,
+				C0DFDEF61E666AFB0078E2B0 /* UINavigationController */,
 				C0FEB9621E656D180081A6FF /* UIAlertView */,
 			);
 			path = "Category(分类)";
@@ -179,7 +234,7 @@
 				C0FEB96D1E6577F30081A6FF /* SmileAlert.m */,
 				C0FEB96F1E65888F0081A6FF /* SmileAlertContentView.h */,
 				C0FEB9701E65888F0081A6FF /* SmileAlertContentView.m */,
-				C0FEB9721E65889A0081A6FF /* SmileAlertContentView.xib */,
+				C0DFDEF41E666A210078E2B0 /* SmileAlertContentView.xib */,
 			);
 			name = SmileAlert;
 			sourceTree = "<group>";
@@ -291,8 +346,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0FEB93E1E656CC50081A6FF /* LaunchScreen.storyboard in Resources */,
+				C0DFDEFB1E666B600078E2B0 /* SmileButtonVC.xib in Resources */,
+				C0DFDF021E666E910078E2B0 /* SmileMainViewController.xib in Resources */,
 				C0FEB93B1E656CC50081A6FF /* Assets.xcassets in Resources */,
-				C0FEB9731E65889A0081A6FF /* SmileAlertContentView.xib in Resources */,
+				C0DFDEF51E666A210078E2B0 /* SmileAlertContentView.xib in Resources */,
 				C0FEB9391E656CC50081A6FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,12 +375,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0FEB9361E656CC50081A6FF /* ViewController.m in Sources */,
+				C0DFDF0A1E66735D0078E2B0 /* UINavigationController+NavManager.m in Sources */,
+				C0DFDF011E666E910078E2B0 /* SmileMainViewController.m in Sources */,
 				C0FEB9691E656D940081A6FF /* UIAlertView+Block.m in Sources */,
+				C0DFDF071E6670E90078E2B0 /* UINavigationController+Animation.m in Sources */,
 				C0FEB96E1E6577F30081A6FF /* SmileAlert.m in Sources */,
+				C0DFDF121E667F280078E2B0 /* MyControl.m in Sources */,
 				C0FEB9331E656CC50081A6FF /* AppDelegate.m in Sources */,
 				C0FEB9711E65888F0081A6FF /* SmileAlertContentView.m in Sources */,
+				C0DFDEFA1E666B600078E2B0 /* SmileButtonVC.m in Sources */,
 				C0FEB9301E656CC50081A6FF /* main.m in Sources */,
+				C0DFDF0E1E667A490078E2B0 /* UIButton+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +615,7 @@
 				C0FEB95A1E656CC50081A6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FEB95B1E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +624,7 @@
 				C0FEB95D1E656CC50081A6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FEB95E1E656CC50081A6FF /* Build configuration list for PBXNativeTarget "SmileHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +633,7 @@
 				C0FEB9601E656CC50081A6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

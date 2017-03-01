@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SmileMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController * nav  = [[UINavigationController alloc]initWithRootViewController:[[SmileMainViewController alloc]init]];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

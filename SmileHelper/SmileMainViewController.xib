@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -14,7 +18,62 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cy-ND-cz6">
+                    <rect key="frame" x="30" y="75" width="139.5" height="35"/>
+                    <color key="backgroundColor" red="0.16984953699999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="9Wa-DN-lwI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="UIAlertView+Block">
+                        <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="AlertBlockClick:" destination="-1" eventType="touchUpInside" id="Tcg-tR-2Ql"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggr-yA-z0k">
+                    <rect key="frame" x="200.5" y="75" width="139.5" height="35"/>
+                    <color key="backgroundColor" red="0.16984953699999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="wvH-Nc-e3x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="CustomAlertView+Block">
+                        <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="CustomAlertView:" destination="-1" eventType="touchUpInside" id="O3f-hy-6v5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvY-Pq-Uwu">
+                    <rect key="frame" x="30" y="124" width="139.5" height="35"/>
+                    <color key="backgroundColor" red="1" green="0.23818640059999999" blue="0.1629330279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="sge-QS-yeV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="UIButton">
+                        <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="bottonList:" destination="-1" eventType="touchUpInside" id="pj6-1m-DTX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ggr-yA-z0k" firstAttribute="leading" secondItem="2cy-ND-cz6" secondAttribute="trailing" constant="31" id="1X6-33-L8u"/>
+                <constraint firstItem="yvY-Pq-Uwu" firstAttribute="top" secondItem="2cy-ND-cz6" secondAttribute="bottom" constant="14" id="BCs-cV-vsp"/>
+                <constraint firstItem="2cy-ND-cz6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="GAb-n9-y3T"/>
+                <constraint firstAttribute="trailing" secondItem="ggr-yA-z0k" secondAttribute="trailing" constant="35" id="Jux-zq-bbF"/>
+                <constraint firstItem="2cy-ND-cz6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="Pdy-G1-ZBv"/>
+                <constraint firstItem="ggr-yA-z0k" firstAttribute="baseline" secondItem="2cy-ND-cz6" secondAttribute="baseline" id="QLn-kQ-KZ7"/>
+                <constraint firstItem="yvY-Pq-Uwu" firstAttribute="width" secondItem="2cy-ND-cz6" secondAttribute="width" id="hmt-3Y-bmE"/>
+                <constraint firstItem="2cy-ND-cz6" firstAttribute="width" secondItem="ggr-yA-z0k" secondAttribute="width" id="mx2-kL-ll9"/>
+                <constraint firstItem="yvY-Pq-Uwu" firstAttribute="centerX" secondItem="2cy-ND-cz6" secondAttribute="centerX" id="vQn-u9-FOA"/>
+            </constraints>
         </view>
     </objects>
 </document>

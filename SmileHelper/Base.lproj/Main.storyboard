@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,45 +20,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sK8-g5-myW">
-                                <rect key="frame" x="36" y="30" width="141.5" height="30"/>
-                                <color key="backgroundColor" red="0.16984953699999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="ouM-hR-8E8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="UIAlertView+Block">
-                                    <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="AlertBlockClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7NL-YR-cky"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rov-oL-GmH">
-                                <rect key="frame" x="197.5" y="30" width="141.5" height="30"/>
-                                <color key="backgroundColor" red="0.16984953699999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Vhe-aH-JLD"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="CustomAlertView+Block">
-                                    <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="CustomAlertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lkw-JY-Ls8"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.13729745369999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Rov-oL-GmH" secondAttribute="trailing" constant="20" id="EVZ-Wb-xvS"/>
-                            <constraint firstItem="Rov-oL-GmH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="QXk-mq-4s2"/>
-                            <constraint firstItem="Rov-oL-GmH" firstAttribute="leading" secondItem="sK8-g5-myW" secondAttribute="trailing" constant="20" id="bFz-Qj-WFu"/>
-                            <constraint firstItem="sK8-g5-myW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="jsN-j9-zhM"/>
-                            <constraint firstItem="sK8-g5-myW" firstAttribute="width" secondItem="Rov-oL-GmH" secondAttribute="width" id="q6P-lj-xB4"/>
-                            <constraint firstItem="sK8-g5-myW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="yeM-9w-AmR"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

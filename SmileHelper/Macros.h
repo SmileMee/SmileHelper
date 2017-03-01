@@ -29,4 +29,7 @@ View.layer.borderWidth = BorderWidth;
 
 #import "UIAlertView+Block.h"
 #import "SmileAlert.h"
+#import "UINavigationController+Animation.h"
+#import "UIButton+Category.h"
+#import "MyControl.h"
 #endif /* Macros_h */
