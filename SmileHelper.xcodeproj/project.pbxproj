@@ -16,6 +16,9 @@
 		C0DFDF0A1E66735D0078E2B0 /* UINavigationController+NavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF091E66735D0078E2B0 /* UINavigationController+NavManager.m */; };
 		C0DFDF0E1E667A490078E2B0 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF0D1E667A490078E2B0 /* UIButton+Category.m */; };
 		C0DFDF121E667F280078E2B0 /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF111E667F280078E2B0 /* MyControl.m */; };
+		C0DFDF161E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF151E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.m */; };
+		C0DFDF1A1E66AA340078E2B0 /* UITextView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF191E66AA340078E2B0 /* UITextView+Category.m */; };
+		C0DFDF1D1E66AB4B0078E2B0 /* SmileTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDF1C1E66AB4B0078E2B0 /* SmileTextViewVC.m */; };
 		C0FEB9301E656CC50081A6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB92F1E656CC50081A6FF /* main.m */; };
 		C0FEB9331E656CC50081A6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEB9321E656CC50081A6FF /* AppDelegate.m */; };
 		C0FEB9391E656CC50081A6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEB9371E656CC50081A6FF /* Main.storyboard */; };
@@ -61,6 +64,12 @@
 		C0DFDF0D1E667A490078E2B0 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
 		C0DFDF101E667F280078E2B0 /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
 		C0DFDF111E667F280078E2B0 /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
+		C0DFDF141E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DDPopUpViewController.h"; sourceTree = "<group>"; };
+		C0DFDF151E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DDPopUpViewController.m"; sourceTree = "<group>"; };
+		C0DFDF181E66AA340078E2B0 /* UITextView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Category.h"; sourceTree = "<group>"; };
+		C0DFDF191E66AA340078E2B0 /* UITextView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Category.m"; sourceTree = "<group>"; };
+		C0DFDF1B1E66AB4B0078E2B0 /* SmileTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileTextViewVC.h; sourceTree = "<group>"; };
+		C0DFDF1C1E66AB4B0078E2B0 /* SmileTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileTextViewVC.m; sourceTree = "<group>"; };
 		C0FEB92B1E656CC50081A6FF /* SmileHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FEB92F1E656CC50081A6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0FEB9311E656CC50081A6FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +147,24 @@
 			path = MyControl;
 			sourceTree = "<group>";
 		};
+		C0DFDF131E669FE40078E2B0 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0DFDF141E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.h */,
+				C0DFDF151E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		C0DFDF171E66AA1A0078E2B0 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C0DFDF181E66AA340078E2B0 /* UITextView+Category.h */,
+				C0DFDF191E66AA340078E2B0 /* UITextView+Category.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
 		C0FEB9221E656CC50081A6FF = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +198,8 @@
 				C0DFDEF71E666B600078E2B0 /* SmileButtonVC.h */,
 				C0DFDEF81E666B600078E2B0 /* SmileButtonVC.m */,
 				C0DFDEF91E666B600078E2B0 /* SmileButtonVC.xib */,
+				C0DFDF1B1E66AB4B0078E2B0 /* SmileTextViewVC.h */,
+				C0DFDF1C1E66AB4B0078E2B0 /* SmileTextViewVC.m */,
 				C0FEB9371E656CC50081A6FF /* Main.storyboard */,
 				C0FEB93A1E656CC50081A6FF /* Assets.xcassets */,
 				C0FEB93C1E656CC50081A6FF /* LaunchScreen.storyboard */,
@@ -209,6 +238,8 @@
 		C0FEB9611E656CFB0081A6FF /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				C0DFDF171E66AA1A0078E2B0 /* UITextView */,
+				C0DFDF131E669FE40078E2B0 /* UIViewController */,
 				C0DFDF0F1E667F180078E2B0 /* MyControl */,
 				C0DFDF0B1E667A100078E2B0 /* UIButton */,
 				C0DFDEF61E666AFB0078E2B0 /* UINavigationController */,
@@ -383,8 +414,11 @@
 				C0DFDF121E667F280078E2B0 /* MyControl.m in Sources */,
 				C0FEB9331E656CC50081A6FF /* AppDelegate.m in Sources */,
 				C0FEB9711E65888F0081A6FF /* SmileAlertContentView.m in Sources */,
+				C0DFDF1A1E66AA340078E2B0 /* UITextView+Category.m in Sources */,
+				C0DFDF1D1E66AB4B0078E2B0 /* SmileTextViewVC.m in Sources */,
 				C0DFDEFA1E666B600078E2B0 /* SmileButtonVC.m in Sources */,
 				C0FEB9301E656CC50081A6FF /* main.m in Sources */,
+				C0DFDF161E66A02B0078E2B0 /* UIViewController+DDPopUpViewController.m in Sources */,
 				C0DFDF0E1E667A490078E2B0 /* UIButton+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

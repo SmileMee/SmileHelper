@@ -32,4 +32,7 @@ View.layer.borderWidth = BorderWidth;
 #import "UINavigationController+Animation.h"
 #import "UIButton+Category.h"
 #import "MyControl.h"
+#import "UITextView+Category.h"
+#import "UIViewController+DDPopUpViewController.h"
+
 #endif /* Macros_h */

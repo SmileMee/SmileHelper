@@ -13,12 +13,6 @@ typedef void (^BtnClickBlock)(NSInteger tag);
 
 @interface UIButton (Category)
 
-/**
- *  @brief  创建button
- */
-+(UIButton*)createButtonWithFrame:(CGRect)frame target:(id)target SEL:(SEL)method title:(NSString*)title;
-
-
 
 -(void)add_BtnClickHandler:(BtnClickBlock)clickHandler;
 

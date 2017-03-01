@@ -9,7 +9,7 @@
 #import "SmileMainViewController.h"
 #import "Macros.h"
 #import "SmileButtonVC.h"
-
+#import "SmileTextViewVC.h"
 @interface SmileMainViewController ()
 
 @end
@@ -67,6 +67,20 @@
 
 
 
+- (IBAction)popViewController:(UIButton *)sender {
+    SmileButtonVC * vc =   [[SmileButtonVC alloc]init];
+//    [self.navigationController  showPopUpViewController:vc animationType:DDPopUpAnimationTypeSlideVertical dismissWhenTouchBackground:YES];
+    vc.popUpPosition = DDPopUpPositionCenter;
+    vc.popUpViewSize = CGSizeMake(KScreenWidth, KScreenHeight/2);
+    [self showPopUpViewController:vc animationType:DDPopUpAnimationTypeSlideVertical dismissWhenTouchBackground:YES];
+}
+
+#pragma mark - UITextView
+- (IBAction)textViewVC:(id)sender {
+    
+   [self.navigationController pushViewController:[[SmileTextViewVC alloc]init] withTransition:UIViewAnimationTransitionCurlUp];
+    
+}
 
 
 

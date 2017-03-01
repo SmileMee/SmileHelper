@@ -61,16 +61,50 @@
                         <action selector="bottonList:" destination="-1" eventType="touchUpInside" id="pj6-1m-DTX"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5D-vM-c2u">
+                    <rect key="frame" x="30" y="184" width="139.5" height="35"/>
+                    <color key="backgroundColor" red="0.28721973740000001" green="0.82197564840000004" blue="0.2435746429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="zcD-zX-Vo6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="UIViewController">
+                        <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="popViewController:" destination="-1" eventType="touchUpInside" id="Slc-4S-V4j"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iO-eT-A7F">
+                    <rect key="frame" x="30" y="240" width="139.5" height="35"/>
+                    <color key="backgroundColor" red="0.28721973740000001" green="0.82197564840000004" blue="0.2435746429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Xdo-O2-MHs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="UITextView+Catecory">
+                        <color key="titleColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="textViewVC:" destination="-1" eventType="touchUpInside" id="2eV-92-c9D"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstItem="0iO-eT-A7F" firstAttribute="top" secondItem="H5D-vM-c2u" secondAttribute="bottom" constant="21" id="1Hs-rB-pM4"/>
                 <constraint firstItem="ggr-yA-z0k" firstAttribute="leading" secondItem="2cy-ND-cz6" secondAttribute="trailing" constant="31" id="1X6-33-L8u"/>
+                <constraint firstItem="H5D-vM-c2u" firstAttribute="width" secondItem="yvY-Pq-Uwu" secondAttribute="width" id="1qv-LG-EEb"/>
+                <constraint firstItem="0iO-eT-A7F" firstAttribute="centerX" secondItem="H5D-vM-c2u" secondAttribute="centerX" id="6jj-JG-Q8L"/>
                 <constraint firstItem="yvY-Pq-Uwu" firstAttribute="top" secondItem="2cy-ND-cz6" secondAttribute="bottom" constant="14" id="BCs-cV-vsp"/>
                 <constraint firstItem="2cy-ND-cz6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="GAb-n9-y3T"/>
                 <constraint firstAttribute="trailing" secondItem="ggr-yA-z0k" secondAttribute="trailing" constant="35" id="Jux-zq-bbF"/>
                 <constraint firstItem="2cy-ND-cz6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="Pdy-G1-ZBv"/>
                 <constraint firstItem="ggr-yA-z0k" firstAttribute="baseline" secondItem="2cy-ND-cz6" secondAttribute="baseline" id="QLn-kQ-KZ7"/>
+                <constraint firstItem="0iO-eT-A7F" firstAttribute="width" secondItem="H5D-vM-c2u" secondAttribute="width" id="Z4Z-Eu-hAZ"/>
+                <constraint firstItem="H5D-vM-c2u" firstAttribute="centerX" secondItem="yvY-Pq-Uwu" secondAttribute="centerX" id="eWm-u7-oTo"/>
                 <constraint firstItem="yvY-Pq-Uwu" firstAttribute="width" secondItem="2cy-ND-cz6" secondAttribute="width" id="hmt-3Y-bmE"/>
+                <constraint firstItem="H5D-vM-c2u" firstAttribute="top" secondItem="yvY-Pq-Uwu" secondAttribute="bottom" constant="25" id="hsG-gF-b59"/>
                 <constraint firstItem="2cy-ND-cz6" firstAttribute="width" secondItem="ggr-yA-z0k" secondAttribute="width" id="mx2-kL-ll9"/>
                 <constraint firstItem="yvY-Pq-Uwu" firstAttribute="centerX" secondItem="2cy-ND-cz6" secondAttribute="centerX" id="vQn-u9-FOA"/>
             </constraints>
